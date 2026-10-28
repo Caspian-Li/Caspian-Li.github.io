@@ -107,3 +107,35 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+/* Personalization: retain AcadHomepage's original academic layout. */
+.author__avatar img {
+    width: 175px;
+    height: 175px;
+    object-fit: cover;
+    object-position: 62% 40%;
+}
+.author__name-zh {
+    color: #737a80;
+    margin-top: 0 !important;
+    margin-bottom: 12px !important;
+}
+.paper-box-image > div { position: relative; width: 100%; }
+.paper-box .paper-box-image img { height: auto; object-fit: contain; }
+.paper-box .paper-box-text p:last-child { margin-bottom: 0; }
+.page__content a:focus-visible { outline: 2px solid #31577f; outline-offset: 3px; }
+@media (max-width: 1023px) {
+    .author__avatar img { width: 90px; height: 90px; min-width: 90px; }
+    .author__avatar { width: 90px; }
+    .author__content { padding-left: 16px; }
+    .author__name-zh { margin-bottom: 5px !important; }
+}
+@media (max-width: 767px) {
+    .paper-box .paper-box-image { order: 1; justify-content: flex-start; margin-bottom: 22px; }
+    .paper-box .paper-box-text { order: 2; }
+    .paper-box .paper-box-image > div { max-width: 400px; }
+}
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+.paper-box .badge { margin-top: -0.75em; }
+.paper-box .paper-box-image img { width: 100%; max-width: 100%; height: auto; }

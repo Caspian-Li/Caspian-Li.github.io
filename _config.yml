@@ -6,10 +6,12 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Lorem ipsum"
-description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
-repository               : "RayeRen/acad-homepage.github.io"
-google_scholar_stats_use_cdn : true
+title                    : "Hanrong Li"
+description              : "First-year M.S. Student"
+repository               : "Caspian-Li/Caspian-Li.github.io"
+url                      : "https://caspian-li.github.io"
+baseurl                  : ""
+google_scholar_stats_use_cdn : false
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
@@ -21,14 +23,15 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Lorem ipsum"
-  avatar           : "images/android-chrome-512x512.png"
-  bio              : "Lorem ipsum College"
-  location         : "Beijing, China"
+  name             : "Hanrong Li"
+  name_zh          : "李瀚嵘"
+  avatar           : "images/hanrong-li.jpg"
+  bio              : "College of Computer Science<br>Nankai University"
+  location         : "Tianjin, China"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "Lorem@ipsum.com"
+  googlescholar    :
+  email            : "hanrongli2005@163.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -66,6 +69,10 @@ include:
   - files
 exclude:
   - docs
+  - preview
+  - _site
+  - preview.html
+  - EDITING.md
   - google_scholar_crawler
   - "*.sublime-project"
   - "*.sublime-workspace"
