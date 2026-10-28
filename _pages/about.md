@@ -21,27 +21,7 @@ If you are interested in my research or have any research-related questions, ple
 
 # 📝 Publications
 
-<div class="paper-box">
-  <div class="paper-box-image">
-    <div>
-      <div class="badge">NAACL · Under Review</div>
-      <a href="{{ '/images/taskgraph-rag-overview.png' | relative_url }}" target="_blank" rel="noopener" aria-label="View the full TaskGraph-RAG framework figure">
-        <img src="{{ '/images/taskgraph-rag-overview.png' | relative_url }}" alt="TaskGraph-RAG framework: offline entity and SRL relation indexing, online question decomposition and retrieval, and hop-wise answer generation." width="1600" height="940" loading="eager">
-      </a>
-    </div>
-  </div>
-  <div class="paper-box-text" markdown="1">
-
-[TaskGraph-RAG: Lightweight Relation-Aware Graph RAG via Entity-Anchored Task Execution]({{ '/images/taskgraph-rag-overview.png' | relative_url }})
-
-*Submitted to NAACL. Under review.*
-
-TaskGraph-RAG combines a lightweight entity–sentence–passage index with semantic role labeling. It executes decomposed questions as entity-anchored retrieval tasks to select relation-relevant evidence for multi-hop question answering.
-
-[**[Framework]**]({{ '/images/taskgraph-rag-overview.png' | relative_url }})
-
-  </div>
-</div>
+A paper submitted to NAACL, under review.
 
 # 🎖 Honors and Awards
 
@@ -54,3 +34,4 @@ TaskGraph-RAG combines a lightweight entity–sentence–passage index with sema
 
 - *Present*, M.S. student (research track), College of Computer Science, **Nankai University**, Tianjin, China.
 - *2022.09 – 2026.06*, Bachelor's degree in Software Engineering, **Dalian University of Technology**, Dalian, China.
+

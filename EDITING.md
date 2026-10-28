@@ -8,10 +8,9 @@ This site uses the original RayeRen/acad-homepage.github.io Jekyll template and 
 - `_pages/about.md`: introduction, research interests, manuscript, awards and education.
 - `_data/navigation.yml`: navigation entries.
 - `images/hanrong-li.jpg`: the supplied profile photo, displayed with CSS cropping.
-- `images/taskgraph-rag-overview.png`: Figure 2 extracted from the supplied manuscript.
 - `assets/css/main.scss`: original template styling plus a small personalization block.
 
-The manuscript is labeled **NAACL · Under Review**, according to the owner's instruction. The uploaded anonymous manuscript and revision notes are not included or linked, and no author order has been inferred. The manuscript's title and framework can be updated in `_pages/about.md`. The CV PDF is not published; education and honors were transcribed from it.
+Publications displays only: A paper submitted to NAACL, under review. Keep manuscript titles, figures, technical descriptions, and links out of the public source and site during anonymous review.
 
 ## GitHub Pages
 
@@ -30,3 +29,4 @@ JEKYLL_NO_BUNDLER_REQUIRE=true jekyll build
 ```
 
 Alternatively follow the upstream README to install the full GitHub Pages bundle. The site was verified with Jekyll 4.3.2, Kramdown, and the configured plugins. Native GitHub Pages deployment must still be checked after account connection and fork.
+
