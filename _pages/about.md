@@ -17,7 +17,7 @@ My research interests lie in **knowledge graph enhanced retrieval-augmented gene
 - **Knowledge Graphs & RAG:** Using structured knowledge and task-aware retrieval to find relation-relevant evidence for multi-hop question answering.
 - **Agent Memory:** Exploring how agents organize, retrieve, and update memories and experiences to support long-term interactions.
 
-If you are interested in my research or have any research-related questions, please feel free to contact me via email at [hanrongli2005 [at] 163.com](mailto:hanrongli2005@163.com).
+If you are interested in my research or have any research-related questions, please feel free to contact me via email at [lihanrong [at] mail.nankai.edu.cn](mailto:lihanrong@mail.nankai.edu.cn).
 
 # 📝 Publications
 
@@ -25,6 +25,7 @@ A paper submitted to NAACL, under review.
 
 # 🎖 Honors and Awards
 
+- **Outstanding Undergraduate Graduate**, Liaoning Province.
 - **Academic Excellence Scholarship**, Dalian University of Technology (twice).
 - **Outstanding Student**, Dalian University of Technology (twice).
 - **Outstanding Youth League Member**, Dalian University of Technology.
